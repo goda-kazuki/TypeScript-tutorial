@@ -1,4 +1,4 @@
-import { isZero } from "./src/isZero";
+import { isZero } from "./src/index";
 
 test("check", () => {
   const result = isZero(0);
