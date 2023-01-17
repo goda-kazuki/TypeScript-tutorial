@@ -1,7 +1,17 @@
 # TypeScript-tutorial
 
-typescriptのインストール
+### typescript のインストール
+
 npm install --save-dev typescript @types/node
 
-tsconfig.jsonの初期設定
+### tsconfig.json の初期設定
+
 npx tsc --init
+
+### コンパイル
+
+npx tsc
+
+### 実行
+
+node dist/index.js
